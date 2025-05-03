@@ -1,6 +1,3 @@
-Here’s the finalized, rebranded **Quadropic Desktop Commander MCP** `README.md` with the **MIT license note** added at the bottom:
-
----
 
 # 🧠 Quadropic Desktop Commander MCP
 
