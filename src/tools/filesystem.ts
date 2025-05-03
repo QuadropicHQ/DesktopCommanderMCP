@@ -16,7 +16,7 @@ async function getAllowedDirs(): Promise<string[]> {
         } else {
             // Fall back to default directories if not configured
             allowedDirectories = [
-                os.homedir()   // User's home directory
+                process.env.WORK_DIR || os.homedir(),
             ];
             // Update config with default
             await configManager.setValue('allowedDirectories', allowedDirectories);
