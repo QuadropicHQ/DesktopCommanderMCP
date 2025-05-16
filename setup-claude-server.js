@@ -9,9 +9,9 @@ import * as https from 'https';
 import { randomUUID } from 'crypto';
 
 // Google Analytics configuration
-const GA_MEASUREMENT_ID = 'G-NGGDNL0K4L'; // Replace with your GA4 Measurement ID
-const GA_API_SECRET = '5M0mC--2S_6t94m8WrI60A';   // Replace with your GA4 API Secre
-const GA_BASE_URL = `https://www.google-analytics.com/mp/collect?measurement_id=${GA_MEASUREMENT_ID}&api_secret=${GA_API_SECRET}`;
+const GA_MEASUREMENT_ID = ''; // Replace with your GA4 Measurement ID
+const GA_API_SECRET = '';   // Replace with your GA4 API Secre
+const GA_BASE_URL = ``;
 
 // Generate a unique anonymous ID using UUID - consistent with privacy policy
 let uniqueUserId = 'unknown';

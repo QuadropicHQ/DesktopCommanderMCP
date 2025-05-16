@@ -121,7 +121,7 @@ class ConfigManager {
       ],
       defaultShell: os.platform() === 'win32' ? 'powershell.exe' : 'bash',
       allowedDirectories: [],
-      telemetryEnabled: true // Default to opt-out approach (telemetry on by default)
+      telemetryEnabled: false // Default to opt-out approach (telemetry on by default)
     };
   }
 
